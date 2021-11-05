@@ -94,11 +94,31 @@ align-self: left;
 }
 
 .footer {
-  background-color: #f8f9fa;
   color: rgb(186, 186, 186);
- 
   padding: 1rem;
+  background-color: #f8f9fa;
+  
 }
+
+.backing {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: rgb(169, 169, 169) 0px 0px 5px;
+  position: relative;
+  top: 52px;
+  left: 22px;
+}
+
+hr {
+  color: rgb(186, 186, 186);
+  
+}
+
+.socialicons {
+  
+}
+
+
 
 
 
