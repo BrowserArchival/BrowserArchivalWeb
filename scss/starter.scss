@@ -30,7 +30,7 @@ $enable-shadows: true;
 
 // Customize some defaults
 $body-color: #333;
-$body-bg: #fff;
+$body-bg: rgb(208, 208, 208);
 $border-radius: .4rem;
 $success: #7e53bf;
 
@@ -80,11 +80,25 @@ $success: #7e53bf;
 
 @import "icon-list";
 
-body {
-  padding: 3rem 1.5rem;
-}
+
 
 // Style Bootstrap icons
 .bi {
   fill: currentColor;
 }
+
+.logo {
+align-self: left;
+
+ 
+}
+
+.footer {
+  background-color: #f8f9fa;
+  color: rgb(186, 186, 186);
+ 
+  padding: 1rem;
+}
+
+
+
