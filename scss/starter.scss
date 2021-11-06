@@ -73,14 +73,7 @@ $success: #7e53bf;
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
 
-
-//
-// Custom styles
-//
-
 @import "icon-list";
-
-
 
 // Style Bootstrap icons
 .bi {
@@ -88,37 +81,36 @@ $success: #7e53bf;
 }
 
 .logo {
-align-self: left;
-
- 
+  align-self: left;
 }
 
 .footer {
+  background-color: #f8f9fa;
   color: rgb(186, 186, 186);
   padding: 1rem;
-  background-color: #f8f9fa;
   
 }
 
 .backing {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa; 
+  border-radius: 5px;
+  box-shadow: rgb(169, 169, 169) 1px 1px 5px;
+  left: 22px;
   padding: 1rem;
-  box-shadow: rgb(169, 169, 169) 0px 0px 5px;
   position: relative;
   top: 52px;
-  left: 22px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 hr {
   color: rgb(186, 186, 186);
-  
 }
 
-.socialicons {
-  
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 100%;
+  }
 }
-
-
-
-
-
